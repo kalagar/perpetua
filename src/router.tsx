@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Rocket from "./components/Rocket";
-import RocketLunch from "./view/RocketLunch";
+import Rocket from "./view/rocket/Rocket";
+import RocketList from "./view/rocketList/RocketList";
 
 const routes = [
   {
     path: "/",
-    component: <RocketLunch />,
+    component: <RocketList />,
     exact: true,
   },
   {

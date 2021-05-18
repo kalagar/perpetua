@@ -2,7 +2,7 @@ import { Card } from "antd";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
-import { IRocket } from "../models/rocketLunch";
+import { IRocket } from "../../models/rocketLunch";
 import "./style.css";
 
 function Rocket() {

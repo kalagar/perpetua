@@ -4,9 +4,9 @@ import axios from "axios";
 import moment from "moment";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { IRocket } from "../models/rocketLunch";
+import { IRocket } from "../../models/rocketLunch";
 
-function RocketLunch() {
+function RocketList() {
   const [rockets, setRockets] = useState([]);
 
   const getRocketList = async () => {
@@ -50,4 +50,4 @@ function RocketLunch() {
   );
 }
 
-export default RocketLunch;
+export default RocketList;
