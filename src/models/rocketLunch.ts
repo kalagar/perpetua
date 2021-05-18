@@ -1,5 +1,3 @@
-interface ILinks {}
-
 export interface IRocket {
   links: {
     mission_patch?: string;
