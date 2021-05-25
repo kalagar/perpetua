@@ -26,8 +26,10 @@ function Rocket() {
   return (
     <div className="rocketCard">
       <Card title="Card title" bordered={false} style={{ width: 300 }}>
-        <p>Rocket Name : {rocket?.rocket.rocket_name}</p>
-        <p>Rocket Type: {rocket?.rocket.rocket_type}</p>
+        <p className="rocket_name">
+          Rocket Name : {rocket?.rocket.rocket_name}
+        </p>
+        <p className="rocket_type">Rocket Type: {rocket?.rocket.rocket_type}</p>
         <p>Reused: {rocket?.rocket.fairings.reused ? "Yes" : "No"}</p>
       </Card>
     </div>

@@ -4,3 +4,11 @@
   align-items: center;
   display: flex;
 }
+
+.rocket_name {
+  font-size: 18px;
+}
+
+.rocket__type {
+  font-size: 14px;
+}

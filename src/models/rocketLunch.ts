@@ -16,4 +16,5 @@ export interface IRocket {
       reused: boolean;
     };
   };
+  upcoming: boolean;
 }
